@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import { ReactElement } from 'react'
 import styles from '~/src/styles/Home.module.scss'
 
-const Home = () => {
+const Home = (): ReactElement => {
   return (
     <div className={styles.container}>
       <Head>
